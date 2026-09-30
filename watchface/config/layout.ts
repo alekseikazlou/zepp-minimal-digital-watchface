@@ -26,11 +26,11 @@ export const LAYOUT = {
     period: { x: 398, y: 195, w: 32, h: 20, size: 20 },
     seconds: { x: 394, y: 261, w: 40, h: 24, size: 24 },
     date: { x: 169, y: 65, w: 143, h: 26, size: 26 },
-    weekday: { x: 158, y: 330, w: 164, h: 32, size: 26 },
+    weekday: { x: 110, y: 330, w: 260, h: 32, size: 26 },
   },
   interactions: {
     calendar: { x: 151, y: 53, w: 178, h: 50 },
-    schedule: { x: 146, y: 320, w: 188, h: 52 },
+    schedule: { x: 100, y: 320, w: 280, h: 52 },
     battery: { x: 280, y: 397, w: 48, h: 48 },
     weather: { x: 325, y: 114, w: 110, h: 50 },
     sun: { x: 155, y: 397, w: 121, h: 48 },
