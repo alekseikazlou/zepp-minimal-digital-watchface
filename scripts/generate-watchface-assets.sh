@@ -16,7 +16,7 @@ fi
 
 mkdir -p "$OUTPUT_DIR"
 
-for state in empty low medium high full; do
+for state in empty 10 20 30 40 50 60 70 80 90 full; do
   source="$SOURCE_DIR/$state.svg"
   output="$OUTPUT_DIR/$state.png"
 

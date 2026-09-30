@@ -3,22 +3,14 @@ import { LAYOUT } from "../../config/layout.ts";
 import * as hmUI from "@zos/ui";
 
 const BATTERY_STATES = [
-  // 0–5%
-  { maximum: 5, asset: "empty" },
-  // 6–30%
-  { maximum: 30, asset: "low" },
-  // 31–60%
-  { maximum: 60, asset: "medium" },
-  // 61–89%
-  { maximum: 89, asset: "high" },
-  // 90–100%
-  { maximum: 100, asset: "full" },
-];
+  'empty', '10', '20', '30', '40', '50', '60', '70', '80', '90', 'full',
+]
 
 function getBatteryAsset(charge) {
-  const normalizedCharge = Math.max(0, Math.min(100, charge));
-  return BATTERY_STATES.find(({ maximum }) => normalizedCharge <= maximum)
-    .asset;
+  const normalizedCharge = Number.isFinite(charge)
+    ? Math.max(0, Math.min(100, charge))
+    : 0
+  return BATTERY_STATES[Math.floor(normalizedCharge / 10)]
 }
 
 export function createBatteryDomain({ ui, batterySensor }) {
