@@ -3,27 +3,27 @@ import { LAYOUT } from "../../config/layout.ts";
 import * as hmUI from "@zos/ui";
 
 const BATTERY_STATES = [
-  // 0–5%
+  // 0–4%
   'empty',
-  // 6–10%
+  // 5–14%
   '10',
-  // 11–20%
+  // 15–24%
   '20',
-  // 21–30%
+  // 25–34%
   '30',
-  // 31–40%
+  // 35–44%
   '40',
-  // 41–50%
+  // 45–54%
   '50',
-  // 51–60%
+  // 55–64%
   '60',
-  // 61–70%
+  // 65–74%
   '70',
-  // 71–80%
+  // 75–84%
   '80',
-  // 81–90%
+  // 85–94%
   '90',
-  // 91–100%
+  // 95–100%
   'full',
 ]
 
@@ -31,11 +31,11 @@ function getBatteryAsset(charge) {
   const normalizedCharge = Number.isFinite(charge)
     ? Math.max(0, Math.min(100, charge))
     : 0
-  if (normalizedCharge <= 5) {
+  if (normalizedCharge < 5) {
     return BATTERY_STATES[0]
   }
 
-  return BATTERY_STATES[Math.ceil(normalizedCharge / 10)]
+  return BATTERY_STATES[Math.round(normalizedCharge / 10)]
 }
 
 export function createBatteryDomain({ ui, batterySensor }) {
