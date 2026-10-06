@@ -1,0 +1,175 @@
+Minimal Digital — descriptions for Zepp Console
+
+Watch Face Name: Minimal Digital (all languages).
+Copy the description under the matching language heading.
+Each description is within the 400-character limit.
+
+zh-CN — Chinese (Simplified)
+Minimal Digital 是一款简洁的极简表盘，融合经典七段式数字与现代布局。
+
+大号清晰时间是视觉中心。日期、天气、闹钟、日出日落时间和电量指示满足日常所需，点按区域让您快速访问相关功能。时间优先，界面不堆砌健身数据。
+
+zh-TW — Chinese (Traditional)
+Minimal Digital 是一款簡潔的極簡錶盤，融合經典七段式數字與現代版面配置。
+
+大字清晰時間是視覺焦點。日期、天氣、鬧鐘、日出日落時間和電量指示滿足日常所需，點按區域讓您快速存取相關功能。時間優先，畫面不堆砌健身資料。
+
+en-US — English
+Minimal Digital is a clean, minimalist watch face with classic seven-segment numerals and a modern layout.
+
+Large, readable time takes center stage. Date, weather, alarm, sunrise and sunset times, and a battery indicator provide everyday essentials, with tap zones for quick access. Time first. No fitness clutter.
+
+es-ES — Spanish
+Minimal Digital es una esfera minimalista con números clásicos de siete segmentos y un diseño moderno.
+
+La hora, grande y legible, es protagonista. Fecha, tiempo, alarma, horas de salida y puesta del sol e indicador de batería ofrecen lo esencial del día a día, con zonas táctiles de acceso rápido. La hora primero. Sin datos de actividad que recarguen la pantalla.
+
+ru-RU — Russian
+Minimal Digital — лаконичный минималистичный циферблат с классическими семисегментными цифрами и современной компоновкой.
+
+В центре — крупное, легко читаемое время. Дата, погода, будильник, время восхода и заката и индикатор заряда — всё нужное на каждый день. Зоны нажатия обеспечивают быстрый доступ. Время на первом месте. Без нагромождения фитнес-данных.
+
+ko-KR — Korean
+Minimal Digital은 클래식한 7세그먼트 숫자와 현대적인 레이아웃이 어우러진 깔끔한 미니멀 워치페이스입니다.
+
+크고 읽기 쉬운 시간이 중심을 이룹니다. 날짜, 날씨, 알람, 일출·일몰 시간, 배터리 표시로 일상에 필요한 정보를 확인하고, 터치 영역으로 빠르게 접근하세요. 시간을 최우선으로, 화면을 복잡하게 만드는 운동 정보 없이.
+
+fr-FR — French
+Minimal Digital est un cadran épuré aux chiffres classiques à sept segments et à la disposition moderne.
+
+L'heure, grande et lisible, est au premier plan. Date, météo, alarme, heures de lever et de coucher du soleil et batterie : l'essentiel au quotidien, avec des zones tactiles pour un accès rapide. Priorité à l'heure. Aucun encombrement de données sportives.
+
+de-DE — German
+Minimal Digital ist ein minimalistisches Zifferblatt mit klassischen Siebensegmentziffern und modernem Layout.
+
+Die große, gut lesbare Uhrzeit steht im Mittelpunkt. Datum, Wetter, Wecker, Sonnenauf- und -untergang sowie Akkustand bieten alles Wichtige für den Alltag. Tippbereiche ermöglichen schnellen Zugriff. Die Zeit zuerst. Ohne überladene Fitnessdaten.
+
+id-ID — Indonesian
+Minimal Digital adalah tampilan jam minimalis yang rapi, dengan angka tujuh segmen klasik dan tata letak modern.
+
+Waktu yang besar dan mudah dibaca menjadi fokus. Tanggal, cuaca, alarm, waktu matahari terbit dan terbenam, serta indikator baterai menyajikan kebutuhan harian, dengan area ketuk untuk akses cepat. Waktu diutamakan. Tanpa tampilan penuh data kebugaran.
+
+pl-PL — Polish
+Minimal Digital to minimalistyczna tarcza z klasycznymi cyframi siedmiosegmentowymi i nowoczesnym układem.
+
+Duża, czytelna godzina gra główną rolę. Data, pogoda, alarm, godziny wschodu i zachodu słońca oraz wskaźnik baterii to codzienne niezbędniki. Obszary dotykowe zapewniają szybki dostęp. Czas na pierwszym miejscu. Bez natłoku danych fitness.
+
+it-IT — Italian
+Minimal Digital è un quadrante essenziale con classiche cifre a sette segmenti e un layout moderno.
+
+L'ora, grande e leggibile, è protagonista. Data, meteo, sveglia, orari di alba e tramonto e indicatore della batteria offrono l'essenziale per ogni giorno, con aree touch per un accesso rapido. Prima di tutto, l'ora. Senza una schermata affollata di dati fitness.
+
+ja-JP — Japanese
+Minimal Digitalは、クラシックな7セグメント数字とモダンなレイアウトを組み合わせた、すっきりとしたミニマルな文字盤です。
+
+大きく読みやすい時刻を中心に、日付、天気、アラーム、日の出・日の入り時刻、バッテリー残量など、毎日に必要な情報を表示。タップエリアから素早くアクセスできます。時刻を最優先に、運動データで画面を埋め尽くすことなく。
+
+th-TH — Thai
+Minimal Digital เป็นหน้าปัดมินิมอลที่เรียบสะอาด ใช้ตัวเลขเจ็ดส่วนแบบคลาสสิกและการจัดวางที่ทันสมัย
+
+เวลาแสดงขนาดใหญ่ อ่านง่าย และเด่นชัด พร้อมวันที่ อากาศ นาฬิกาปลุก เวลาอาทิตย์ขึ้นและตก และระดับแบตเตอรี่ ครบข้อมูลจำเป็นในแต่ละวัน มีพื้นที่แตะเพื่อเข้าถึงอย่างรวดเร็ว ให้เวลาเป็นหลัก ไม่รกด้วยข้อมูลฟิตเนส
+
+ar-EG — Arabic
+Minimal Digital واجهة ساعة بسيطة وأنيقة بأرقام كلاسيكية من سبعة مقاطع وتخطيط عصري.
+
+الوقت هو محور الواجهة، بأرقام كبيرة وسهلة القراءة. التاريخ والطقس والمنبّه وأوقات الشروق والغروب ومؤشر البطارية توفر أساسيات يومك، مع مناطق لمس للوصول السريع. الوقت أولاً، دون ازدحام ببيانات اللياقة.
+
+vi-VN — Vietnamese
+Minimal Digital là mặt đồng hồ tối giản, gọn gàng với chữ số bảy đoạn cổ điển và bố cục hiện đại.
+
+Thời gian lớn, dễ đọc là tâm điểm. Ngày, thời tiết, báo thức, giờ bình minh và hoàng hôn cùng mức pin cung cấp thông tin thiết yếu hằng ngày, với vùng chạm để truy cập nhanh. Ưu tiên thời gian. Không rối mắt vì dữ liệu thể thao.
+
+pt-PT — Portuguese (Portugal)
+Minimal Digital é um mostrador minimalista com algarismos clássicos de sete segmentos e uma disposição moderna.
+
+A hora, grande e legível, é o foco. Data, meteorologia, alarme, horas do nascer e pôr do sol e indicador de bateria oferecem o essencial do dia a dia, com zonas de toque para acesso rápido. A hora em primeiro lugar. Sem excesso de dados de atividade física.
+
+nl-NL — Dutch
+Minimal Digital is een minimalistische wijzerplaat met klassieke zevensegmentcijfers en een moderne indeling.
+
+De grote, goed leesbare tijd staat centraal. Datum, weer, alarm, zonsopkomst, zonsondergang en batterijstatus bieden alle dagelijkse basisinformatie, met tikzones voor snelle toegang. De tijd voorop. Geen overdaad aan fitnessgegevens.
+
+tr-TR — Turkish
+Minimal Digital, klasik yedi segmentli rakamlar ve modern bir düzen sunan sade, minimalist bir saat kadranıdır.
+
+Büyük, kolay okunan saat ön plandadır. Tarih, hava durumu, alarm, gün doğumu ve batımı saatleri ile pil göstergesi günlük ihtiyaçları karşılar. Dokunma alanları hızlı erişim sağlar. Öncelik zaman. Fitness verileriyle dolu bir ekran olmadan.
+
+uk-UA — Ukrainian
+Minimal Digital — лаконічний мінімалістичний циферблат із класичними семисегментними цифрами та сучасним компонуванням.
+
+У центрі — великий, легко читаний час. Дата, погода, будильник, час сходу й заходу сонця та індикатор заряду — усе потрібне щодня. Зони натискання забезпечують швидкий доступ. Час на першому місці. Без нагромадження фітнес-даних.
+
+iw-IL — Hebrew
+Minimal Digital הוא לוח שעון נקי ומינימליסטי עם ספרות קלאסיות בעלות שבעה מקטעים ועיצוב מודרני.
+
+השעה במרכז, גדולה וקלה לקריאה. תאריך, מזג אוויר, שעון מעורר, זמני זריחה ושקיעה וחיווי סוללה מספקים את המידע החיוני ליום יום, עם אזורי הקשה לגישה מהירה. הזמן קודם לכול. בלי עומס של נתוני כושר.
+
+pt-BR — Portuguese (Brazil)
+Minimal Digital é um mostrador minimalista com números clássicos de sete segmentos e um layout moderno.
+
+A hora, grande e legível, é o destaque. Data, clima, alarme, horários do nascer e pôr do sol e indicador de bateria trazem o essencial para o dia a dia, com áreas de toque para acesso rápido. A hora em primeiro lugar. Sem excesso de dados de atividade física.
+
+ro-RO — Romanian
+Minimal Digital este un cadran minimalist, cu cifre clasice din șapte segmente și un aspect modern.
+
+Ora, mare și ușor de citit, este în prim-plan. Data, vremea, alarma, orele de răsărit și apus și indicatorul bateriei oferă informațiile esențiale zilnice, cu zone tactile pentru acces rapid. Ora pe primul loc. Fără aglomerare de date fitness.
+
+cs-CZ — Czech
+Minimal Digital je čistý minimalistický ciferník s klasickými sedmisegmentovými číslicemi a moderním rozvržením.
+
+Hlavní roli hraje velký, dobře čitelný čas. Datum, počasí, budík, časy východu a západu slunce a ukazatel baterie poskytují vše podstatné pro každý den. Dotykové oblasti umožňují rychlý přístup. Čas na prvním místě. Bez záplavy fitness údajů.
+
+el-GR — Greek
+Το Minimal Digital είναι ένα μινιμαλιστικό καντράν με κλασικά ψηφία επτά τμημάτων και σύγχρονη διάταξη.
+
+Η μεγάλη, ευανάγνωστη ώρα πρωταγωνιστεί. Ημερομηνία, καιρός, ξυπνητήρι, ώρες ανατολής και δύσης και ένδειξη μπαταρίας προσφέρουν τα απαραίτητα κάθε μέρα, με περιοχές αφής για γρήγορη πρόσβαση. Πρώτα η ώρα. Χωρίς πληθώρα δεδομένων άσκησης.
+
+sr-RS — Serbian (Latin)
+Minimal Digital je pregledan, minimalistički brojčanik sa klasičnim sedmosegmentnim ciframa i modernim rasporedom.
+
+Veliko, lako čitljivo vreme je u centru. Datum, vremenska prognoza, alarm, izlazak i zalazak sunca i indikator baterije pružaju svakodnevne osnovne informacije, uz dodirne zone za brz pristup. Vreme na prvom mestu. Bez gomilanja podataka o vežbanju.
+
+ca-ES — Catalan
+Minimal Digital és una esfera minimalista amb dígits clàssics de set segments i una disposició moderna.
+
+L'hora, gran i llegible, és la protagonista. Data, temps, alarma, hores de sortida i posta del sol i indicador de bateria ofereixen l'essencial del dia a dia, amb zones tàctils d'accés ràpid. L'hora primer. Sense una pantalla plena de dades d'activitat física.
+
+fi-FI — Finnish
+Minimal Digital on selkeä, minimalistinen kellotaulu, jossa on klassiset seitsemänsegmenttinumerot ja moderni asettelu.
+
+Suuri, helppolukuinen aika on keskiössä. Päivämäärä, sää, herätys, auringonnousu- ja laskuajat sekä akun varaus tarjoavat arjen olennaiset tiedot. Napautusalueet mahdollistavat nopean pääsyn. Aika ensin. Ilman liikuntatietojen paljoutta.
+
+nb-NO — Norwegian (Bokmål)
+Minimal Digital er en ren, minimalistisk urskive med klassiske sjusegmenttall og moderne utforming.
+
+Klokkeslettet står i sentrum, stort og lettlest. Dato, vær, alarm, tider for soloppgang og solnedgang og batterinivå gir hverdagens viktigste informasjon, med trykksoner for rask tilgang. Tiden først. Uten en skjerm full av treningsdata.
+
+da-DK — Danish
+Minimal Digital er en enkel, minimalistisk urskive med klassiske syvsegmenttal og et moderne layout.
+
+Klokkeslættet er i centrum, stort og letlæseligt. Dato, vejr, alarm, tider for solopgang og solnedgang samt batteriniveau giver hverdagens vigtigste oplysninger, med trykzoner til hurtig adgang. Tiden først. Uden en skærm fyldt med træningsdata.
+
+sv-SE — Swedish
+Minimal Digital är en ren, minimalistisk urtavla med klassiska sjusegmentsiffror och modern layout.
+
+Tiden står i centrum, stor och lättläst. Datum, väder, alarm, tider för soluppgång och solnedgång samt batterinivå ger vardagens viktigaste information, med tryckytor för snabb åtkomst. Tiden först. Utan en skärm full av träningsdata.
+
+hu-HU — Hungarian
+A Minimal Digital letisztult, minimalista számlap klasszikus hétszegmenses számjegyekkel és modern elrendezéssel.
+
+A nagy, jól olvasható idő áll a középpontban. Dátum, időjárás, ébresztő, napkelte és napnyugta ideje, valamint akkumulátorjelző: minden fontos napi adat, érintési területekkel a gyors eléréshez. Az idő az első. Edzésadatokkal zsúfolt képernyő nélkül.
+
+ms-MY — Malay
+Minimal Digital ialah muka jam minimalis yang kemas, dengan angka tujuh segmen klasik dan susun atur moden.
+
+Masa yang besar dan mudah dibaca menjadi tumpuan. Tarikh, cuaca, penggera, waktu matahari terbit dan terbenam serta penunjuk bateri menyediakan maklumat penting harian, dengan kawasan ketik untuk akses pantas. Masa diutamakan. Tanpa paparan sarat data kecergasan.
+
+sk-SK — Slovak
+Minimal Digital je čistý minimalistický ciferník s klasickými sedemsegmentovými číslicami a moderným rozložením.
+
+Hlavnú úlohu má veľký, dobre čitateľný čas. Dátum, počasie, budík, časy východu a západu slnka a ukazovateľ batérie ponúkajú všetko podstatné na každý deň. Dotykové oblasti umožňujú rýchly prístup. Čas na prvom mieste. Bez záplavy fitness údajov.
+
+hi-IN — Hindi
+Minimal Digital क्लासिक सात-खंड अंकों और आधुनिक लेआउट वाला एक साफ़, मिनिमल वॉच फ़ेस है।
+
+बड़ा, आसानी से पढ़ा जाने वाला समय केंद्र में है। तारीख, मौसम, अलार्म, सूर्योदय और सूर्यास्त का समय और बैटरी संकेतक रोज़ की ज़रूरी जानकारी देते हैं। टैप क्षेत्र से तुरंत पहुँचें। समय सबसे पहले। फिटनेस डेटा से भरी स्क्रीन के बिना।
