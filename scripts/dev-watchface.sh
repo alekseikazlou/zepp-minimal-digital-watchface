@@ -5,7 +5,7 @@ set -o pipefail
 
 PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 TARGET=${ZEPP_TARGET:-480x480-amazfit-balance-2}
-LOG_DIR=${ZEPP_LOG_DIR:-/tmp/retro-digital-watchface}
+LOG_DIR=${ZEPP_LOG_DIR:-/tmp/zepp-minimal-digital-watchface}
 LOG_FILE=${ZEPP_LOG_FILE:-$LOG_DIR/zeus-dev.log}
 
 mkdir -p "$LOG_DIR"

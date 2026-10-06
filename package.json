@@ -1,5 +1,5 @@
 {
-  "name": "retro-digital-watchface",
+  "name": "zepp-minimal-digital-watchface",
   "private": true,
   "scripts": {
     "assets": "bash scripts/generate-watchface-assets.sh",

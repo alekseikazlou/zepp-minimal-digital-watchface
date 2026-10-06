@@ -14,7 +14,7 @@ fi
 
 REFERENCE=$1
 ACTUAL=$2
-OUTPUT=${3:-/tmp/retro-digital-watchface/visual-diff.png}
+OUTPUT=${3:-/tmp/zepp-minimal-digital-watchface/visual-diff.png}
 
 for image in "$REFERENCE" "$ACTUAL"; do
   if [ ! -f "$image" ]; then
@@ -34,7 +34,7 @@ fi
 output_dir=$(dirname -- "$OUTPUT")
 mkdir -p "$output_dir"
 
-temp_dir=$(mktemp -d /tmp/retro-digital-visual-diff.XXXXXX)
+temp_dir=$(mktemp -d /tmp/zepp-minimal-digital-visual-diff.XXXXXX)
 trap 'rm -rf "$temp_dir"' EXIT
 
 difference="$temp_dir/difference.png"
