@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "artifact": {
+    "file": "1130120-Minimal_Digital-1.3.5-20261006170809.zab",
+    "sha256": "ca0ad801ee7fe2dcbbee2deee38c61e0707b00f7b66911e6e5c91feb8016801f",
+    "sizeBytes": 262406
+  },
+  "app": {
+    "id": 1130120,
+    "name": "Minimal Digital",
+    "type": "watchface",
+    "version": {
+      "name": "1.3.5",
+      "code": 23
+    }
+  },
+  "target": "480x480-amazfit-balance-2",
+  "build": {
+    "mode": "preview",
+    "createdAt": "2026-10-06T14:08:13.459Z",
+    "zeusCliVersion": "1.9.3"
+  },
+  "preview": {
+    "qrExpiresAfterDays": 7
+  },
+  "source": {
+    "gitCommit": "4c6a21dbd31caa61c2ea7b19b7b3f41c9966447e",
+    "clean": true
+  }
+}
