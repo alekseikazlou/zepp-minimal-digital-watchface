@@ -14,7 +14,7 @@ export const LAYOUT = {
     icon: { x: 284, y: 406, w: 32, h: 32 },
   },
   weather: {
-    text: { x: 335, y: 127, w: 51, h: 24, size: 24 },
+    text: { x: 314, y: 127, w: 72, h: 24, size: 24 },
     icon: { x: 395, y: 124, w: 30, h: 30 },
   },
   sun: {
@@ -32,7 +32,7 @@ export const LAYOUT = {
     calendar: { x: 151, y: 53, w: 178, h: 50 },
     schedule: { x: 100, y: 320, w: 280, h: 52 },
     battery: { x: 280, y: 397, w: 48, h: 48 },
-    weather: { x: 325, y: 114, w: 110, h: 50 },
+    weather: { x: 304, y: 114, w: 131, h: 50 },
     sun: { x: 155, y: 397, w: 121, h: 48 },
     alarm: { x: 45, y: 114, w: 129, h: 50 },
     alarmShortcut: { x: 84, y: 195, w: 112, h: 90 },
