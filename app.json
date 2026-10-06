@@ -2,16 +2,16 @@
   "configVersion": "v2",
   "app": {
     "appId": 22815,
-    "appName": "Retro Digital",
+    "appName": "Minimal Digital",
     "appType": "watchface",
     "version": {
-      "code": 21,
-      "name": "1.3.3"
+      "code": 22,
+      "name": "1.3.4"
     },
     "icon": "icon.png",
     "cover": ["preview.png"],
     "vender": "zepp",
-    "description": "High-contrast retro digital watchface"
+    "description": "Minimalist digital watch face with classic numerals, everyday essentials and tap zones."
   },
   "permissions": [
     "data:os.device.info"
@@ -53,7 +53,7 @@
   },
   "i18n": {
     "en-US": {
-      "appName": "Retro Digital"
+      "appName": "Minimal Digital"
     }
   },
   "defaultLanguage": "en-US"
