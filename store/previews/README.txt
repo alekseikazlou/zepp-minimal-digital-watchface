@@ -7,8 +7,10 @@ has transparent corners.
 manifest.json records the language, translation, font, Penpot copy ID,
 file size, and SHA-256 checksum.
 
-The PNGs were exported directly from Penpot at a scale of 0.75, without
-rendering the text locally. The original Penpot screen is unchanged.
+The PNGs were exported directly from the existing Penpot language boards
+through the official remote MCP at a scale of 0.75, without rendering text
+locally. Visible and hidden layers follow the current design. Penpot was
+read-only during export.
 Language copies are arranged in a separate group on the right side of
 page 05 · Screens and named:
 Store / Minimal Digital / Normal / <locale> · 480.

@@ -22,21 +22,18 @@
 - Do not silently switch to Computer Use, a browser extension, or another mechanism. Report an attachment blocker and ask before falling back.
 - State that Chrome DevTools MCP will be used before browser actions.
 
-### Local Penpot MCP workflow
+### Penpot — official remote MCP by default
 
-- Use the official local Penpot MCP server and the Penpot plugin. The MCP endpoint is `http://localhost:4401/mcp`; the plugin manifest is `http://localhost:4400/manifest.json`.
-- Before each design-sync session, determine the current Penpot version and inspect the published `@penpot/mcp` versions. Prefer an exact version match; do not use a dist-tag blindly. If no matching package exists, use the newest compatible published version only after reporting the mismatch and its risk.
-- Known compatibility baseline: local Penpot `2.18.0-RC7` has no matching published MCP package; `@penpot/mcp@2.17.0` is the newest available version. This is a compatibility warning, not a blocker: report it once, then continue after the plugin shows `Connected` and one read-only MCP request succeeds.
-- Check whether the local server is already listening before starting another instance. If it is not running, start `npx -y @penpot/mcp@<version>` in the background, keep its PID and log under `/tmp`, and wait until the MCP and plugin endpoints are ready. Do not install its dependencies into this repository.
-- Use Chrome DevTools MCP with the dedicated debug Chrome profile to activate and verify the Penpot plugin. Launch it with `gtk-launch chrome-devtools-mcp.desktop`, then verify `curl -sS http://127.0.0.1:9222/json/version` before browser calls.
-- Confirm Penpot authentication and access to the required file, page, and named frames. Reuse an existing matching Penpot tab when available.
-- Loading the plugin manifest is a one-time setup, repeated only after a plugin/server version update. At the start of each fresh browser session, open the installed plugin, click `Connect to MCP server`, confirm `Connected`, and keep both the plugin window and Penpot tab open while MCP tools are in use.
-- Connection sequence: keep one local MCP server running; in the existing Penpot tab use **Plugins → Penpot MCP Plugin → Connect to MCP server**; confirm `Connected`; initialize `http://localhost:4401/mcp` (use `localhost`, not `127.0.0.1`), retain its `mcp-session-id`, list tools, then make one small read-only request. The plugin may need reconnecting after a server restart.
-- Automate server startup and plugin activation when Chrome DevTools MCP is available. Initial login and Chromium local-network permission may require the user. The Penpot MCP cannot activate its own disconnected plugin.
-- Never silently switch to Computer Use, a browser extension, or another browser-control mechanism. If Chrome DevTools MCP cannot attach, report the exact blocker and ask before using a fallback.
-- After connecting, verify that the Penpot MCP tools are available and make one small read-only request before collecting the design diff. Treat version-mismatch warnings as compatibility risks, not connection failures.
-- Keep reads targeted and use screenshots only for visual verification. State the actual browser-control mechanism in the final report.
-- Keep the local MCP process running between design-sync tasks; do not stop it automatically at handoff. At handoff, report whether it is still running and its PID when known. Stop it only when the user explicitly asks.
+- Use the configured official remote MCP server and Penpot MCP Plugin as the default and first access method for Penpot tasks. State that official remote MCP is being used before accessing Penpot and in the final report.
+- Use the available `mcp__penpot__*` tools directly. Read `high_level_overview` once per session before other Penpot tools, and consult `penpot_api_info` for the API members needed by the task.
+- Verify the plugin connection with a small read-only `execute_code` request returning Penpot version and current file/page names and IDs. A successful documentation request alone does not confirm plugin connectivity.
+- Confirm that the connected file, page, and named frames match the requested design before proceeding. Keep the plugin and its Penpot tab open while MCP tools are in use.
+- Do not start a local MCP server, run `npx @penpot/mcp`, install local MCP dependencies, or configure localhost endpoints unless explicitly requested. Remote MCP does not require local package-version checks or manual HTTP session initialization.
+- Keep Penpot read-only unless design edits are explicitly requested. Keep reads targeted and use screenshots or shape exports for visual verification.
+- If remote MCP is unavailable or the plugin is disconnected, report the exact error and the required connection step. Ask before using a local server or another access mechanism.
+- If browser interaction is necessary to connect the plugin or visually verify the design, use Chrome DevTools MCP with the dedicated debug Chrome profile. Confirm attachment and Penpot authentication, then reuse an existing matching tab when available. Browser interaction is unnecessary when the remote plugin connection already works and structured reads suffice.
+- Never silently switch to Computer Use, a browser extension, or another browser-control mechanism. If Chrome DevTools MCP cannot attach, report the exact blocker and ask before using a fallback. State the actual browser-control mechanism when used.
+- Distinguish files, pages, and projects. Do not present the connected file as a complete account project list; report API limitations when the requested listing is unavailable.
 
 ## Project Structure & Module Organization
 
@@ -68,5 +65,5 @@ Git history is not available in this checkout, so no repository-specific commit 
 ## Configuration & Security
 
 Keep permissions in `app.json` minimal. Never commit account tokens, QR-login data, or device identifiers. Update version code and name deliberately for release builds.
-Never commit Penpot MCP keys or authenticated remote-MCP URLs. Local MCP mode does not require a key; use remote credentials only when the user explicitly requests remote mode.
+Never expose or commit Penpot MCP keys or authenticated remote-MCP URLs. Use the existing configured remote connection; do not copy credentials into repository files, logs, or reports.
 Do not save preview QR URLs or Zeus credentials in release manifests. Preserved `.zab` files are release artifacts; never overwrite an existing version directory.
